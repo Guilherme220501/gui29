@@ -67,6 +67,6 @@ header{align-items: center;justify-content: center;text-align: center;padding: 2
 footer{align-items: center;justify-content: center;text-align: center;padding: 20px;width: 300px;margin: auto;border-radius: 10px 10px;}
 .cursos:hover{transition: transform(0.8);transform: scale(1.08s);}
 .image:hover{transition: transform(0.8);transform: scale(1.06s);}
-.section:hover{transition: transform(0.9);transform: scale(1.08s);}
-.header:hover{transition: transform(0.9);transform: scale(1.09s);}
+section:hover{transition: transform(0.9);transform: scale(1.08s);}
+header:hover{transition: transform(0.9);transform: scale(1.09s);}
 .summary:hover{transition: transform(0.8);transform: scale(1.07s);}
