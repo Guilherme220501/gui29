@@ -1,0 +1,72 @@
+.menu {font-size: 20px;      font-style:oblique;
+    cursor: pointer;
+    padding: 20px;
+    background-color: white;
+    color: black;
+    position: fixed;
+    left: 10px;
+    z-index: 2000;
+border-radius: 10px 10px;
+list-style: none;
+    display: flex;
+    padding: 20px;
+    border-radius: 10px 10px;
+}
+/* Menu Lateral */
+.fundo {
+    position: fixed;
+    top: 0;
+    left: -250px; /* Fora da tela inicialmente */
+    width: 170px;
+    height: 500vh;
+    background-color:white;
+    transition: left 0.5s;
+    z-index: 1000;
+    border-radius: 10px 10px;
+    padding-top: 20px;
+    margin-bottom: 5px;
+}
+.botão-fechar-X {float: right;
+    position: relative;right: 10px;top: 10px;
+    background: none;
+    border: none;
+    color: black;
+    font-size: 30px;
+    cursor: pointer;
+}
+.animação ul li a:hover {
+    background-color: rgb(255, 255, 255);
+    white-space: nowrap;
+    text-decoration: underline;
+    width: 100px;
+    border-radius: 10px 10px;
+    box-shadow: 5px 5px 5px black;
+    padding: 10px;
+    color: red;
+    text-decoration: none;
+    display: block;
+    border-radius: 10px 10px;
+    margin-bottom: 10px;
+}
+body{align-items: center;justify-content: center;text-align: center;margin: auto;background:linear-gradient(to right,white,black,white);}
+h1{font-size: 30px;font-style: oblique;font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;text-decoration: underline;color: white;text-shadow: 6px;}
+h2{font-size: 20px;font-family: Arial, Helvetica, sans-serif;font-style: italic;text-shadow: 6px;color: black;}
+p{font-size: 15px;font-family: 'Times New Roman', Times, serif;font-style: inherit;text-shadow: 6px;color: white;}
+a{font-size: 10px;text-decoration: none;}
+ul{text-align: left;list-style-type: none;}
+.color{width: 280px;padding: 20px;margin: auto;border-radius: 10px 10px;align-items: center;justify-content: center;text-align: center;background-color: blue;border: 6px solid white;box-shadow: 10px 10px 10px black;}
+dl{padding: 5px;}
+dt{font-size: 20px;font-style: oblique;font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;text-shadow: 6px;text-align: left;padding: 5px;}
+dd{font-size: 15px;font-family: Arial, Helvetica, sans-serif;font-style: inherit;text-shadow: 6px;text-align: left;padding: 5px;}
+thead{text-align: left;font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;font-style: oblique;font-size: 20px;text-shadow: 6px;}
+tbody{font-size: 15px;font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;font-style: italic;text-shadow: 6px;text-align: left;}
+tfoot{font-size: 20px;font-style: oblique;font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;text-shadow: 6px;text-align: left;}
+summary{width: 300px;margin: auto;border-radius: 10px 10px;padding: 10px;text-shadow: 6px;}
+section{align-items: center;justify-content: center;text-align: center;padding: 20px;width: 300px;margin: auto;border-radius: 10px 10px;}
+header{align-items: center;justify-content: center;text-align: center;padding: 20px;width: 300px;margin: auto;border-radius: 10px 10px;}
+footer{align-items: center;justify-content: center;text-align: center;padding: 20px;width: 300px;margin: auto;border-radius: 10px 10px;}
+.cursos{transition: transform(1.04);transform: scale(0.8s);}
+.image{transition: transform(1.01);transform: scale(0.6s);}
+.section{transition: transform(1.02);transform: scale(0.8s);}
+.header{transition: transform(1.03);transform: scale(0.6s);}
+.summary{transition: transform(1.01);transform: scale(0.8s);}
